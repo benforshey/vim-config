@@ -16,5 +16,10 @@ nnoremap zo <Cmd>call VSCodeNotify('editor.unfold')<CR>
 nnoremap zO <Cmd>call VSCodeNotify('editor.unfoldAll')<CR>
 
 " Diagnostics
-nmap ]d <Cmd>call VSCodeNotify('editor.action.marker.next')<CR>
-nmap [d <Cmd>call VSCodeNotify('editor.action.marker.prev')<CR>
+nnoremap ]d <Cmd>call VSCodeNotify('editor.action.marker.next')<CR>
+nnoremap [d <Cmd>call VSCodeNotify('editor.action.marker.prev')<CR>
+
+" LSP Code Actions
+nnoremap <leader>ca <Cmd>call VSCodeNotify('editor.action.quickFix')
+nnoremap <leader>cn <Cmd>call VSCodeNotify('editor.action.rename')
+nnoremap <leader>cr <Cmd>call VSCodeNotify('editor.action.refactor')
