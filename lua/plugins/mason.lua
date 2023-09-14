@@ -5,6 +5,7 @@ return {
       vim.list_extend(opts.ensure_installed, {
         "black",
         "debugpy",
+        "emmet-ls",
         "js-debug-adapter",
         "json-lsp",
         "lua-language-server",
