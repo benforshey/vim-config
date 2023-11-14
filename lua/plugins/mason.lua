@@ -6,7 +6,6 @@ return {
         "emmet-ls",
         "json-lsp",
         "lua-language-server",
-        "prettierd",
         "shfmt",
         "stylua",
         "svelte-language-server",
