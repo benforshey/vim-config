@@ -22,6 +22,7 @@ return {
         "gitignore",
         "go",
         "graphql",
+        "groovy",
         "html",
         "http",
         "java",
