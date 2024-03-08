@@ -8,9 +8,7 @@ return {
     opts = {
       adapters = {
         "neotest-bash",
-        ["neotest-jest"] = {
-          args = { jestCommand = "npm t" },
-        },
+        "neotest-jest",
         "neotest-playwright",
         "neotest-python",
       },
